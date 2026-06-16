@@ -13,14 +13,15 @@ Avoid placing generated artifacts, dependency folders, or local environment file
 
 ## Build, Test, and Development Commands
 
-No project commands are currently defined. When a package manager or build system is added, document the exact commands here and keep them aligned with the project manifest. Prefer standard names such as:
+This project uses Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
 - `npm install` to install JavaScript dependencies.
-- `npm run dev` to start a local development server.
-- `npm test` to run the test suite.
+- `npm run dev` to start the local Next.js development server.
 - `npm run build` to produce a production build.
+- `npm run start` to run the production server after a successful build.
+- `npm run lint` to run Next.js linting.
 
-Do not add tool-specific instructions until the corresponding configuration files exist.
+No automated test suite is configured yet. Add a test runner with the first meaningful test coverage and document the command here.
 
 ## Coding Style & Naming Conventions
 
